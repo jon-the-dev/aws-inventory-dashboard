@@ -1,19 +1,27 @@
 {
   "name": "aws-inventory-dashboard",
   "version": "1.0.0",
-  "description": "A comprehensive React dashboard for visualizing AWS resources across multiple accounts and regions",
+  "description": "AWS Multi-Account Inventory Dashboard for Rackspace Cloud Intelligence Platform",
   "private": true,
+  "author": "jon-the-dev",
+  "license": "MIT",
+  "homepage": "https://github.com/jon-the-dev/aws-inventory-dashboard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-the-dev/aws-inventory-dashboard.git"
+  },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.263.1",
+    "papaparse": "^5.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "recharts": "^2.8.0",
-    "lucide-react": "^0.263.1",
-    "papaparse": "^5.4.1",
-    "lodash": "^4.17.21",
-    "tailwindcss": "^3.3.3",
-    "autoprefixer": "^10.4.15",
-    "postcss": "^8.4.29"
+    "recharts": "^2.5.0",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +31,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app"
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {
@@ -37,5 +46,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.0"
   }
 }
