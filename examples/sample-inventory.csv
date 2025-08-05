@@ -1,0 +1,10 @@
+accountid,region,service,resource_type,'tags_json','metadata_json'
+123456789012,us-east-1,ec2,instance,'{"Name":"WebServer-01","Environment":"Production","Project":"CustomerPortal","Owner":"DevOps","CostCenter":"IT-001"}','{"InstanceType":"t3.medium","State":"running","LaunchTime":"2024-01-15","PrivateIP":"10.0.1.50"}'
+123456789012,us-east-1,ec2,instance,'{"Name":"WebServer-02","Environment":"Production","Project":"CustomerPortal","Owner":"DevOps","CostCenter":"IT-001"}','{"InstanceType":"t3.medium","State":"running","LaunchTime":"2024-01-15","PrivateIP":"10.0.1.51"}'
+123456789012,us-east-1,s3,bucket,'{"Project":"DataLake","Owner":"DataTeam","Environment":"Production","DataClassification":"Confidential"}','{"BucketSize":"1.2TB","ObjectCount":"45000","CreatedDate":"2023-06-10"}'
+123456789012,us-east-1,rds,database,'{"Name":"CustomerDB-Primary","Environment":"Production","Owner":"DBAdmin","BackupSchedule":"Daily"}','{"Engine":"mysql","EngineVersion":"8.0.32","InstanceClass":"db.r5.large","AllocatedStorage":"500GB"}'
+234567890123,us-west-2,ec2,instance,'{"Name":"DevServer-01","Environment":"Development","Project":"NewFeatures","Owner":"DevTeam"}','{"InstanceType":"t3.small","State":"running","LaunchTime":"2024-02-01"}'
+234567890123,us-west-2,lambda,function,'{"Name":"ProcessOrders","Environment":"Production","Project":"OrderSystem","Owner":"Backend"}','{"Runtime":"python3.9","MemorySize":"512","Timeout":"300","LastModified":"2024-01-20"}'
+234567890123,eu-west-1,ec2,instance,'{"Name":"EU-WebServer","Environment":"Production","Project":"CustomerPortal","Region":"EU","Compliance":"GDPR"}','{"InstanceType":"t3.large","State":"running","LaunchTime":"2024-01-10"}'
+345678901234,ap-southeast-1,s3,bucket,'{"Name":"AsiaBackups","Environment":"Production","DataType":"Backup","RetentionDays":"90"}','{"BucketSize":"800GB","ObjectCount":"12000","StorageClass":"GLACIER"}'
+345678901234,ap-southeast-1,dynamodb,table,'{"Name":"UserSessions","Environment":"Production","Project":"SessionManagement","Owner":"Backend"}','{"ItemCount":"2500000","TableSizeBytes":"5GB","BillingMode":"PAY_PER_REQUEST"}'}
